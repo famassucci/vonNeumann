@@ -80,7 +80,7 @@ void print_help () {
     printf ("\t-r [RHO_INIT] Specify the initial rho value. Default RHO_INIT=%g.\n", RHO_INIT);
     printf ("\t-R [RHO_MAX] Specify maximum rho value. Default RHO_MAX=%g.\n", RHO_MAX);
     printf ("\t-S [INIT_STEP_SIZE] Specify the size of the initial step used to update fluxes. Default INIT_STEP_SIZE=%g.\n", STEP_INIT);
-    printf ("\t-S [MIN_STEP_SIZE] Specify the minimum step size that can be handled by minOver. Default MIN_STEP_SIZE=%g.\n", STEP_MIN);
+    printf ("\t-s [MIN_STEP_SIZE] Specify the minimum step size that can be handled by minOver. Default MIN_STEP_SIZE=%g.\n", STEP_MIN);
     printf ("\t-v Verbose. Print logfile to stderr instead of %s.\n\n", LOG_FILE);
     
     printf ("Note:\n");
