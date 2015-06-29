@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: vonNeumann
+Description: minOver sampler for the solutions of a von Neumann problem
+Version: @VERSION@
+Libs: @VN_LIBS@ @LIBS@
+Cflags: @VN_CFLAGS@

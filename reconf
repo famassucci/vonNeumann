@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rm -f config.cache
+rm -f acconfig.h
+
+unamestr=`uname`
+
+if [[ "$unamestr" == 'Linux' ]];
+    then
+        libtoolize --automake
+
+elif [[ "$unamestr" == 'Darwin' ]];
+    then
+        glibtoolize --automake
+fi
+
+aclocal -I m4
+autoconf
+acconfig
+autoheader
+automake -a

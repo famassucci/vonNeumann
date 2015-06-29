@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: vonNeumann
+Description: minOver sampler of solutions to a von Neumann problem
+Version: 0.1.0
+Libs: -L${exec_prefix}/lib -lvonNeumann -lm -lc 
+Cflags: -I${prefix}/include
